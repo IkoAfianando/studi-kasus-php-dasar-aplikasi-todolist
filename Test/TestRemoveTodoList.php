@@ -17,6 +17,11 @@ removeTodoList(3);
 
 showTodoList();
 
-removeTodoList(2);
+removeTodoList(1);
+
+showTodoList();
+
+$success = removeTodoList(4);
+var_dump($success);
 
 showTodoList();
